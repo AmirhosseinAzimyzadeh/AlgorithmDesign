@@ -1,3 +1,6 @@
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 /**
  * @author :  Amirhossein Azimyadeh
@@ -6,6 +9,12 @@ public class mergeSort {
     public static void main(String[] args) {
         int[] exampleArray =  {3,4,5,6,7,8,9,11,13,0,-1,-3,2,2,10};
         System.out.println(Arrays.toString(mSort(exampleArray)));
+    }
+    @Test
+    void test(){
+        int[] exampleArray = {3,4,5,6,7,8,9,11,13,0,-1,-3,2,2,10};
+        int[] correct = {-3, -1, 0, 2, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13};
+        Assertions.assertArrayEquals(mSort(exampleArray),correct);
     }
 
     public static int[] mSort(int[] array) {
