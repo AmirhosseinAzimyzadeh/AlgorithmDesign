@@ -17,8 +17,9 @@ public class QuickSort {
     @Test
     public void selectionTest(){
         double[] testArray = new double[]{1 ,24,5.6,-10,100,1000,88,33};
-        Assertions.assertEquals(88,selection(testArray,6));
-        Assertions.assertEquals(-10,selection(testArray,1));
+        double[] sortedArray = new double[]{-10,1 ,5.6,24,33,88,100,1000};
+        for (int i = 0; i < sortedArray.length; i++)
+            Assertions.assertEquals(sortedArray[i],selection(testArray,i+1));
     }
     //Quick Sort
     public static void quickSort(double[] Array){
@@ -41,21 +42,18 @@ public class QuickSort {
     }
     private static double selection(int start , int end , int item){
         int pivot = partition(start,end);
-        if(pivot==item){
+        if(pivot==item)
             return array[pivot];
-        }
-        else if(item<pivot){
+        else if(item<pivot)
             return selection(start,pivot-1,item);
-        }else {
-            return selection(pivot+1,end,item);
-        }
+        return selection(pivot+1,end,item);
     }
 
     private static int partition(int start, int end) {
 
         double pivot = array[end];
 
-        int i = (start - 1) ;
+        int i = start - 1 ;
         for (int j = start; j<end; j++)
             if (array[j] <= pivot) {
                 i++;
