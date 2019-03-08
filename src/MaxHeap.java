@@ -1,40 +1,48 @@
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class MaxHeap {
     private static int[] array ;
 
     @Test
-    public void heapSortTest(){
+    public  void heapSortTest(){
+        int[] array = {4,100,-7,-100,5,7,8,1,2,3};
+        MaxHeap mh = new MaxHeap();
+        mh.heapSort(array);
+        int[] tempSorted = {-100, -7, 1, 2, 3, 4, 5, 7, 8, 100};
+        Assertions.assertArrayEquals(array,tempSorted);
+    }
+
+    public void  maxHeapify( int[] array, int i , int n){
+        int leftIndex = 2*i+1;
+        int rightIndex = (2*i)+2;
+        int indexOfMaximum = i;
+        if(leftIndex<n && array[leftIndex]>array[indexOfMaximum])
+            indexOfMaximum=leftIndex;
+        if(rightIndex<n && array[rightIndex]>array[indexOfMaximum])
+            indexOfMaximum=rightIndex;
+        if(indexOfMaximum!=i){
+            swap(indexOfMaximum,i,array);
+            maxHeapify(array,indexOfMaximum,n);
+        }
 
     }
-    //TODO --> need to be completed
-    public void HeapSort(int[] array){
+
+    public  void buildMaxHeap(int[] array){
+        for (int i = (array.length/2)-1; i >=0 ; i--) {
+            maxHeapify(array,i,array.length);
+        }
+    }
+
+    public void heapSort(int[] array){
         buildMaxHeap(array);
-        for (int i = 1; i <array.length ; i++) {
-            swap(0,array.length-i+1,array);
+        for (int i = array.length-1; i >= 0 ; i--) {
+            swap(0,i,array);
+            maxHeapify(array,0,i);
         }
     }
 
-    public static void buildMaxHeap(int[] array){
-        for (int i = array.length/2; i >= 0 ; i--)
-            maxHeap(i,array.length,array);
-    }
-
-    private static void maxHeap(int i, int vertices, int[] array) {
-        int leftChild = 2*i ;
-        int rightChild = (2*i)+1;
-
-        //check for no child -->
-        if(leftChild>=array.length || rightChild >=array.length)
-            return;
-        int bigChildIndex = Math.max(array[leftChild],array[rightChild]) == array[leftChild] ? leftChild : rightChild;
-        if(array[i]<array[bigChildIndex]){
-            swap(i,bigChildIndex,array);
-        }
-        maxHeap(bigChildIndex,vertices,array);
-    }
-
-    private static void swap(int i, int j,int[] array) {
+    private void swap(int i, int j,int[] array) {
         int temp = array[i];
         array[i]=array[j];
         array[j]=temp;
