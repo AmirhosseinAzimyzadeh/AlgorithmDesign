@@ -2,6 +2,7 @@ public class FindRepeated {
     public static void main(String[] args) {
         double[] a = {-1, 0, 1.6, 4, 5, 5, 5, 5, 10};
         System.out.println(findNumberOfRepeated(a,0,a.length-1, 5));
+        //
     }
 
     public static int findNumberOfRepeated(double[] array, int start, int end, double element){
