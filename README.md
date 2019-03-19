@@ -1,4 +1,4 @@
-![alt text](https://raw.githubusercontent.com/AmirhosseinAzimyzadeh/AlgorithmDesign/Picture/Header.jpg)
+![alt text](https://raw.githubusercontent.com/AmirhosseinAzimyzadeh/AlgorithmDesign/master/Picture/Header.jpg)
 # AlgorithmDesign
 implementation of algorithm design in java <br>
 Yazd University - Dr Zarifzadeh's Class <br>
