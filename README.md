@@ -2,6 +2,7 @@
 # AlgorithmDesign
 implementation of algorithm design in java <br>
 Yazd University - Dr Zarifzadeh's Class <br>
+⚠ JUNIT 5.2 used for testing
 #Examples <br>
 1- mergeSort : divide and conquer <br>
 2- maximum subArray <br>
