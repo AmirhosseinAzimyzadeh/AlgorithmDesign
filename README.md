@@ -10,5 +10,5 @@ implementation of algorithm design in java <br>
 4- MaxHeap Sort <br>
 5- Counting Sort <br>
 # Similar Works 
-You can check out our friend's repo here for C++ implementations:<br>
+You can check out our friend's repository here for C++ implementations:<br>
 <a href = "https://github.com/Codenegaar/AlgorithmDesignExamples/">Codenegar/AlgorithmDesign</a>
