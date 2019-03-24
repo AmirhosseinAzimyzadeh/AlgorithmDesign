@@ -3,7 +3,7 @@
 implementation of algorithm design in java <br> 
 Yazd University - Dr Zarifzadeh's Class <br>
 ⚠ JUNIT 5.2 used for testing <br>
-if you'r not familiar with JUNIT <b>see : </b> <a href="https://junit.org/junit4/javadoc/latest/">JUNIT DOCS</a>
+if you're not familiar with JUNIT <b>see : </b> <a href="https://junit.org/junit4/javadoc/latest/">JUNIT DOCS</a>
 or just delete Test methods (int this case these methods start with annotation "@Test" )
 and run codes in your own way.<br>
 # Examples <br> 
