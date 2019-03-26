@@ -3,8 +3,8 @@
 implementation of algorithm design in java <br> 
 Yazd University - Dr Zarifzadeh's Class <br>
 ⚠ JUNIT 5.2 used for testing <br>
-if you're not familiar with JUNIT <b>see :  <a href="https://junit.org/junit5/" target="_blank">JUNIT DOCS</a> </b>
-or just delete Test methods (int this case these methods start with annotation "@Test" )
+if you're not familiar with JUNIT <b>see :  <a href="https://junit.org/junit5/" target="_blank" >JUNIT DOCS</a> </b>
+or just delete Test methods (in this case these methods start with annotation "@Test" )
 and run codes in your own way.<br>
 # Examples <br> 
 1- binarySearch (recursive) <br>
