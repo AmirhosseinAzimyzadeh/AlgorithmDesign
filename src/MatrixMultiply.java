@@ -21,7 +21,7 @@ public class MatrixMultiply {
             for (int j = 0; j < M[0].length; j++) {
                 if(i==j)
                     M[i][j]=0;
-                else if(j==0||i==0){
+                else if(j==0||i==0){ //because all indexes start from 1 !
                     M[i][j]=0;
                 }else {
                     M[i][j]=Integer.MAX_VALUE; // ∞
