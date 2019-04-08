@@ -7,13 +7,13 @@ if you're not familiar with JUNIT <b>see :  <a href="https://junit.org/junit5/" 
 or just delete Test methods (in this case these methods start with annotation "@Test" )
 and run codes in your own way.<br>
 # Examples <br> 
-1- binarySearch (recursive) <br>
-2- mergeSort : divide and conquer <br>
-3- maximum subArray <br>
-4- Quick Sort + Selection Algorithm <br>
-5- MaxHeap Sort <br>
-6- Counting Sort <br>
-7- MinMatrix-Multiply (Dynamic Programming) <br>
+1- binarySearch [using D&C] <br>
+2- mergeSort : [using D&C] <br>
+3- maximum subArray [using D&C] <br>
+4- Quick Sort + Selection Algorithm [using D&C] <br>
+5- MaxHeap Sort [using D&C] <br>
+6- Counting Sort [using D&C] <br>
+7- Min-Matrix-Multiply (Matrix chain multiplication) [using DP] <br>
 # Similar Works 
 You can check out our friend's repository here for C++ implementations:<br>
 <a href = "https://github.com/Codenegaar/AlgorithmDesignExamples/">Codenegar/AlgorithmDesign</a>
