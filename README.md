@@ -13,6 +13,7 @@ and run codes in your own way.<br>
 4- Quick Sort + Selection Algorithm <br>
 5- MaxHeap Sort <br>
 6- Counting Sort <br>
+7- MinMatrix-Multiply (Dynamic Programming) <br>
 # Similar Works 
 You can check out our friend's repository here for C++ implementations:<br>
 <a href = "https://github.com/Codenegaar/AlgorithmDesignExamples/">Codenegar/AlgorithmDesign</a>
