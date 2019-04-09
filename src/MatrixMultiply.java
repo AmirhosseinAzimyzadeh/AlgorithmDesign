@@ -1,5 +1,6 @@
 /**
  * @author : Amirhosein Azimyzadeh
+ * Strategy : Dynamic Programming
  * ⚠️ No test method implemented */
 import java.util.Arrays;
 
