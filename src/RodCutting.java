@@ -46,7 +46,7 @@ public class RodCutting {
     }
 
     @Test
-    public void test(){
+     void test(){
         int[] p1 = new int[]{0 ,3  ,5  ,8  ,9 ,10 ,17 ,17 ,20};
         int[] p2 = new int[]{0 ,1  ,5  ,8  ,9 ,10 ,17 ,17 ,20};
         //test cases from : geeksForGeeks.org
