@@ -33,6 +33,16 @@ public class Knapsack {
         return P[maxWeight];
     }
 
+    public String solution(){
+        return"items are : ["+ solutionToString(P.length-1)+"]";
+    }
+
+    private String solutionToString(int w) {
+        if(w==0)
+            return "";
+        return weights[X[w]]+" ,"+solutionToString(w-weights[X[w]]);
+    }
+
     public static void main(String[] args) {
         int[] weight= new int[]{0,10,20,30};
         int[] price = new int[]{0,60,100,120};
@@ -40,7 +50,6 @@ public class Knapsack {
         Knapsack ks = new Knapsack();
 
         System.out.println(ks.knapsack(50,price,weight));
-        System.out.println(Arrays.toString(ks.P));
-        System.out.println(ks.P.length);
+        System.out.println(ks.solution());
     }
 }
