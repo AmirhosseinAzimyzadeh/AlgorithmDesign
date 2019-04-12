@@ -15,7 +15,7 @@ and run codes in your own way.<br>
 6- Counting Sort `D&C`<br>
 7- Min-Matrix-Multiply (Matrix chain multiplication) `DP` <br>
 8- Rod Cutting `DP` <br>
-9- Knapsack problem `DP` <br>
+9- Knapsack problem ( without limitation ) `DP` <br>
 # Similar Works 
 You can check out our friend's repository here for C++ implementations:<br>
 <a href = "https://github.com/Codenegaar/AlgorithmDesignExamples/">Codenegaar/AlgorithmDesign</a>
