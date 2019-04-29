@@ -16,6 +16,7 @@ and run codes in your own way.<br>
 7 - Min-Matrix-Multiply (Matrix chain multiplication) `DP` <br>
 8 - Rod Cutting `DP` <br>
 9 - Knapsack problem ( without limitation ) `DP` <br>
+10- Longest common subSequence (LCS) `DP` <br>
 # Similar Works 
 You can check out our friend's repository here for C++ implementations:<br>
 <a href = "https://github.com/Codenegaar/AlgorithmDesignExamples/">Codenegaar/AlgorithmDesign</a>
