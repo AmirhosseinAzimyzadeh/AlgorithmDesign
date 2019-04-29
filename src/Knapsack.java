@@ -40,7 +40,7 @@ public class Knapsack {
     private String solutionToString(int w) {
         if(w==0)
             return "";
-        return weights[X[w]]+" ,"+solutionToString(w-weights[X[w]]);
+        return weights[X[w]]+" $="+prices[X[w]]+" ,"+solutionToString(w-weights[X[w]]);
     }
 
     public static void main(String[] args) {
