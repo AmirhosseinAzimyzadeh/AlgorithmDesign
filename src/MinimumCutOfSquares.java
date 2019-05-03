@@ -18,16 +18,13 @@ public class MinimumCutOfSquares {
     }
 
     public static int sumOfCuts(int a , int b){
-        if ( a==b) {
+        if ( a==b)
             return 0;
-        }
         int max= Math.max(a , b);
         int min= Math.min(a, b);
-        if(max%min==0){
+        if(max%min==0)
             return ((max/min)-1)*min;
-        }
-        else {
+        else
             return (max/min)*min + sumOfCuts(max%min , min);
-        }
     }
 }
