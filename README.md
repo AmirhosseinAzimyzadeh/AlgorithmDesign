@@ -17,7 +17,8 @@ and run codes in your own way.<br>
 8 - Rod Cutting `DP` <br>
 9 - Knapsack problem ( without limitation ) `DP` <br>
 10- Longest common subSequence (LCS) `DP` <br>
-11- Maximum Sum subArray `DP`
+11- Maximum Sum subArray `DP` <br>
+12- Minimum cut of squares `greedy`
 # Similar Works 
 You can check out our friend's repository here for C++ implementations:<br>
 <a href = "https://github.com/Codenegaar/AlgorithmDesignExamples/">Codenegaar/AlgorithmDesign</a>
