@@ -6,7 +6,7 @@ Yazd University - Dr Zarifzadeh's Class <br>
 if you're not familiar with JUNIT <b>see :  <a href="https://junit.org/junit5/" target="_blank" >JUNIT DOCS</a> </b>
 or just delete Test methods (in this case these methods start with annotation "@Test" )
 and run codes in your own way.<br>
-<a href="https://junit.org/junit5/" target="_blank" >this repository</a>
+<a href="https://github.com/omidekz/Graph" target="_blank" >this repository</a>
  used for Graph Algorithm 
 # Examples <br>
 1 - binarySearch `D&C` <br>
