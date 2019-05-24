@@ -31,8 +31,8 @@ public abstract class Graph<T> {
     public void addAdj(Node<T> f,Node<T> t){
         addAdj(f,t,DEFAULT_WEIGHT);
     }
-    public void addAdj(String f,String t){
-        addAdj(f,t,DEFAULT_WEIGHT);
+    public void addAdj(String first,String second){
+        addAdj(first,second,DEFAULT_WEIGHT);
     }
     public void addAdj(String[] ids,float[] weights){
         if(ids.length-1 != weights.length)

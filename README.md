@@ -20,7 +20,9 @@ and run codes in your own way.<br>
 9 - Knapsack problem ( without limitation ) `DP` <br>
 10- Longest common subSequence (LCS) `DP` <br>
 11- Maximum Sum subArray `DP` <br>
-12- Minimum cut of squares `greedy`
+12- Minimum cut of squares `greedy`<br>
+13- Graph search (BFS and DFS) `Graph Algo.`<br>
+14- n-Queen `backtracking`
 # Similar Works 
 You can check out our friend's repository here for C++ implementations:<br>
 <a href = "https://github.com/Codenegaar/AlgorithmDesignExamples/">Codenegaar/AlgorithmDesign</a>
