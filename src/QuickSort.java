@@ -2,8 +2,10 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.Random;
+
 /**
- * quick sort and Selection Algorithm --> */
+ * @author : Amirhossein Azimyzadeh
+ * */
 public class QuickSort {
     private static double[] array ;
     @Test

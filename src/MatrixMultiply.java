@@ -3,7 +3,9 @@
  * Strategy : Dynamic Programming
  * ⚠️ No test method implemented */
 import java.util.Arrays;
-
+/**
+ * @author : Amirhossein Azimyzadeh
+ * */
 /*
 * recursive formula --> M(i,j)=min{M(i,k)+M(k+1,j)+(P[0]*P[k]*P[j])}
 *                               for k=1 -> n

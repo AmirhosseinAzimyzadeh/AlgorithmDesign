@@ -1,10 +1,10 @@
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class nQueen {
     private static int[][] chessBoard ; // 1 mean Queen
     public static void main(String[] args) {
-        chessBoard =  new int[8][8];
+        System.out.println();
+        chessBoard =  new int[24][24];
         System.out.println(n_queen(0));
         for (int i = 0; i <chessBoard.length; i++) {
             System.out.println(Arrays.toString(chessBoard[i]));
